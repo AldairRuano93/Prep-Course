@@ -115,7 +115,7 @@ function numeroMasGrande(numeros) {
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+    // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
   if(arguments.length < 1) return 0;
   var total = 1;
@@ -147,7 +147,7 @@ function diaDeLaSemana(numeroDeDia) {
   //Escribe tu código aquí   
   if(numeroDeDia === 1 || numeroDeDia === 7 ){
     return "Es fin de semana"
-  }
+  } 
   return "Es dia Laboral"
 
 } 
@@ -157,7 +157,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-
+  
   let num = n.toString()
   if(num.charAt(0) === "9"){
     return true
@@ -170,7 +170,7 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  
+
   for (var i =0 ; i < arreglo.length - 1; i++) {
     if(arreglo[i] !== arreglo[i+1]){
       return false
